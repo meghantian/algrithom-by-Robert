@@ -40,7 +40,7 @@ def HeapSort(lyst):
         sink(lyst, 1, i-1)
     print(lyst[1:])
 
-
+# worst:O(2NlgN) average:O(2NlgN)  best:O(NlgN)
 
 test = [3,2,4,1,10,8]
 SelectionSort(test)
